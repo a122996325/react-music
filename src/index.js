@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// 引入全局样式
 import './assets/css/index.css'
 ReactDOM.render(<App />, document.getElementById('root'));
 
