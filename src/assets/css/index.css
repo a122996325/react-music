@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 @import './reset.css';
 html, body {
   height: 100%;
+=======
+@import './Reset.css';
+
+html, body, #root, .App {
+    height: 100%;
+}
+.App{
+    width: 750px;
+>>>>>>> 8420b2549feaf63225cb235fd5ab959c0c92f126
 }
