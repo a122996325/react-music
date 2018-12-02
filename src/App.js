@@ -23,6 +23,7 @@ class App extends Component {
       this.setState({
         suggList: []
       })
+      return
     }
     setTimeout(()=>{
       this._get('search/suggest', {keywords: e}).then(res => {
