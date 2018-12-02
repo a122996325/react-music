@@ -1,0 +1,55 @@
+.player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.react-audio-player {
+    display: none;
+}
+
+.song-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: #666;
+}
+.song-img img {
+    width: 100%;
+}
+.song-wrap{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    color: #999;
+    width: 500px;
+}
+.song-name{
+    font-size: 32px;
+    color: #000;
+    line-height: 48px;
+}
+.song-name, .song-lyric{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.play-btn{
+    font-size: 60px;
+    margin-right: 10px;
+}
+.song-list{
+    background-color: #fff;
+    font-size: 40px;
+    color: #999;
+}
+.is-heart{
+    color: red;
+}

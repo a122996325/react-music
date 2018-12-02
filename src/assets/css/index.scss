@@ -1,1 +1,4 @@
-@import './reset.scss'
+@import './reset.scss';
+body, html, #root, .App{
+    min-height: 100%;
+}
