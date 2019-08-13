@@ -1,0 +1,43 @@
+@import '../../vars.less';
+.normal {
+  font-family: Georgia, sans-serif;
+}
+
+.title{
+  height:60px;
+  line-height: 60px;
+}
+.listwrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .recomm{
+    width: 120px;
+    height: 170px;
+    position: relative;
+    .LazyLoad{
+      background-color: rgb(226, 226, 226);
+    }
+    .recommpic{
+      width: 100%;
+    }
+    .name{
+      padding: 5px 3px 0;
+      font-size:12px;
+      line-height: 16px;
+      .text-dot-line();
+    }
+    .playCount{
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #fff;
+      padding-left: 20px;
+      .playIcon{
+        position: absolute;
+        left: 0;
+        font-size:14px;
+      }
+    }
+  }
+}

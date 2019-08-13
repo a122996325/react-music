@@ -1,0 +1,30 @@
+.navwrap{
+  position: fixed;
+  z-index: 999;
+  top: 45px;
+  left: 0;
+  right: 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: yellow;
+  color: #333;
+}
+.fixednav{
+  height: 50px;
+}
+.active{
+  font-size: 20px;
+  font-weight: bold;
+  &::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    padding: 0 5px;
+    margin-left: -5px;
+    margin-top: 5px;
+    background-color: red;
+  }
+}
